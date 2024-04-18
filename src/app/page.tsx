@@ -105,38 +105,6 @@ export default function Home() {
               className=" absolute left-0 right-0 top-0 bottom-0"
             />
           </div>
-
-          <div
-            id="image_1_div"
-            className="cursor-pointer relative p-5 max-sm:p-2 rounded-md  sm:h-52 md:h-72 lg:h-96 max-sm:h-52 max-sm:w-52 sm:w-52 md:w-72 lg:w-96 "
-          >
-            {!picturesData ? null : (
-              <img
-                id="imgb"
-                src={picturesData}
-                alt="img"
-                width={50}
-                height={50}
-                className=" "
-              />
-            )}
-            <div id="NameOrTitleTextDiv" className="">
-              <h1 id="" className=" text-center ">
-                {nameAndTitle.name}
-              </h1>
-              <h1 id="" className=" text-center ">
-                {nameAndTitle.title}
-              </h1>
-            </div>
-            <Image
-              id="bannerImage"
-              src={"/images/frame.png"}
-              alt="pic"
-              height={500}
-              width={500}
-              className=" absolute left-0 right-0 top-0 bottom-0"
-            />
-          </div>
         </div>
 
         <div className=" p-5 bg-white h-48 max-sm:h-72 rounded-md border-t-4 border-red-500 mt-5 mb-20">
