@@ -44,9 +44,6 @@ export default function Home() {
       router.refresh();
     });
   };
-  const onYoutube = () => {
-    alert("It's created By Hirock.....youtube link is not available yet");
-  };
   return (
     <main className=" pr-10 pl-10 bg-slate-100 h-screen overflow-y-scroll pt-14">
       <div className=" flex items-center justify-center z-50 fixed top-0  right-0 left-0 pl-10 pr-10">
