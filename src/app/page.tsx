@@ -62,7 +62,7 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <div className=" border h-20 bg-green-400">Animated image</div>
+
         <div
           id="text_section"
           className=" mt-4 flex flex-col items-center text-xs gap-2"
